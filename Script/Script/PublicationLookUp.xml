@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Publication>
+  <Pub ID="1" Title="000 Scalability" />
+  <Pub ID="2" Title="100 Schema Master" />
+  <Pub ID="3" Title="200 Multi-brand Content" />
+  <Pub ID="4" Title="200 Multi-brand Design" />
+  <Pub ID="141" Title="300 Cirro Energy Content US EN" />
+  <Pub ID="201" Title="300 Community Solar Content US EN" />
+  <Pub ID="182" Title="300 Everythingenergy Content EN-US" />
+  <Pub ID="181" Title="300 GME C&amp;I EN-US" />
+  <Pub ID="121" Title="300 Green Mountain Residential Content US EN" />
+  <Pub ID="61" Title="300 Multi-brand Content ES" />
+  <Pub ID="5" Title="300 PennywisePower Content US EN" />
+  <Pub ID="142" Title="400 Cirro Energy Content US ES" />
+  <Pub ID="184" Title="400 Everythingenergy Content ES-US" />
+  <Pub ID="122" Title="400 Green Mountain Residential Content US ES" />
+  <Pub ID="62" Title="400 PennywisePower Content US ES" />
+  <Pub ID="143" Title="500 CirroEnergy.com US EN" />
+  <Pub ID="144" Title="500 CirroEnergy.com US ES" />
+  <Pub ID="202" Title="500 Community Solar US EN" />
+  <Pub ID="123" Title="500 Green Mountain Residential US EN" />
+  <Pub ID="124" Title="500 Green Mountain Residential US ES" />
+  <Pub ID="21" Title="500 PennywisePower.Com US EN" />
+  <Pub ID="81" Title="500 PennywisePower.Com US ES" />
+  <Pub ID="183" Title="500 businessportal.greenmountain.com (GME C&amp;I)" />
+  <Pub ID="185" Title="500 everythingenergytx.com EN-US" />
+  <Pub ID="186" Title="500 everythingenergytx.com ES-US" />
+</Publication>
