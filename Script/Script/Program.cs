@@ -56,9 +56,9 @@ namespace Script
 
         public static bool bluePrintInfo(CoreServiceClient client)
         {
-            client.ClientCredentials.Windows.ClientCredential.Domain = ConfigurationSettings.AppSettings["Domain"];// "nrg";
-            client.ClientCredentials.Windows.ClientCredential.UserName = ConfigurationSettings.AppSettings["User"]; //"jpandeya";
-            client.ClientCredentials.Windows.ClientCredential.Password = ConfigurationSettings.AppSettings["PWD"];// "jags*786687";
+            client.ClientCredentials.Windows.ClientCredential.Domain = ConfigurationSettings.AppSettings["Domain"];
+            client.ClientCredentials.Windows.ClientCredential.UserName = ConfigurationSettings.AppSettings["User"]; 
+            client.ClientCredentials.Windows.ClientCredential.Password = ConfigurationSettings.AppSettings["PWD"];
             UsingItemsFilterData usingItemsFilterData = new UsingItemsFilterData
             {
 
@@ -93,8 +93,8 @@ namespace Script
             try
             {
 
-                client.ClientCredentials.Windows.ClientCredential.Domain = ConfigurationSettings.AppSettings["Domain"];// "nrg";
-                client.ClientCredentials.Windows.ClientCredential.UserName = ConfigurationSettings.AppSettings["User"]; //"jpandeya";
+                client.ClientCredentials.Windows.ClientCredential.Domain = ConfigurationSettings.AppSettings["Domain"];
+                client.ClientCredentials.Windows.ClientCredential.UserName = ConfigurationSettings.AppSettings["User"]; 
                 client.ClientCredentials.Windows.ClientCredential.Password = ConfigurationSettings.AppSettings["PWD"];// 
 
 
@@ -233,13 +233,10 @@ namespace Script
                 lstRS = lstRS.AsEnumerable().ToList();
                 dt = ToDataTable(lstRS);
                 dt.TableName = "REPORT";
-                //ExcelUtility.ExportToExcel(dt, @"D:\Reliant.xlsx");
-                //DataSet ds = new DataSet();
-                //ds.Tables.Add(dt);
-                //ds.Tables[0].TableName = "REPORT";
+             
 
 
-                ExcelUtility.WriteDataTableToExcel(dt, @"Reliant.xlsx");
+                ExcelUtility.WriteDataTableToExcel(dt, @"Report.xlsx");
                 Console.WriteLine("Total Records Are " + lstRS.Count() + System.Environment.NewLine);
                 Console.WriteLine("Total Time Taken " + timeSpan.Hours + ":" + timeSpan.Minutes + ":" + timeSpan.Seconds + ":" + timeSpan.Milliseconds);
                 //var x= elist.Descendants().Count();
